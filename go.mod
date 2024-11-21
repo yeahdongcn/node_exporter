@@ -3,6 +3,7 @@ module github.com/prometheus/node_exporter
 go 1.21
 
 require (
+	github.com/Mellanox/rdmamap v1.1.0
 	github.com/alecthomas/kingpin/v2 v2.4.0
 	github.com/beevik/ntp v1.3.1
 	github.com/coreos/go-systemd/v22 v22.5.0
@@ -47,6 +48,8 @@ require (
 	github.com/mdlayher/socket v0.4.1 // indirect
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f // indirect
 	github.com/siebenmann/go-kstat v0.0.0-20210513183136-173c9b0a9973 // indirect
+	github.com/vishvananda/netlink v1.1.0 // indirect
+	github.com/vishvananda/netns v0.0.0-20191106174202-0a2b9b5464df // indirect
 	github.com/xhit/go-str2duration/v2 v2.1.0 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
